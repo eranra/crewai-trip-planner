@@ -1,6 +1,6 @@
-from crewai import Task
 from textwrap import dedent
-from datetime import date
+
+from crewai import Task
 
 
 class TripTasks():
@@ -13,6 +13,7 @@ class TripTasks():
             multiple cities, considering factors like current weather
             conditions, upcoming cultural or seasonal events, and
             overall travel expenses.
+            You must use all the provided tools.
 
             Your final answer must be a detailed
             report on the chosen city, and everything you found out
